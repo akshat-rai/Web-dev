@@ -23,19 +23,36 @@ h3 {
     color: #79a3b1;
     font-family: "Cabin", sans-serif;
 }
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+    border-width: 7px;
+    border-color: gray;
+    margin: 5% auto;
+}
+.mountain {
+    max-width: 90%;
+    height: auto;
+}
 .top-container {
     background-color: #fcf8ec;
     position: relative;
     padding-top: 10%;
-    height: 100%;
+    max-height: 100%;
 }
 .bottom-cloud {
+    max-width: 100%;
+    height: auto;
     position: absolute;
 }
 .top-cloud {
+    max-width: 100%;
+    height: auto;
     position: absolute;
-    right: 30%;
-    top: 10%;
+    right: 25%;
+    top: 5%;
 }
 .profile {
     margin-top: 5%;
@@ -99,13 +116,4 @@ h3 {
 .copywrite {
     margin-top: 2%;
     color: white;
-}
-
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    width: 10%;
-    border-width: 7px;
-    border-color: gray;
-    margin: 5% auto;
 }
