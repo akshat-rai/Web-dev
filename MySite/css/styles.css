@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Lora", serif;
+    height: 100%;
+}
+h1 {
+    margin: 40px 0;
+    font-family: "Courgette", cursive;
+    font-size: 4.5em;
+    color: #456268;
+}
+h2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 2rem;
+    color: #456268;
+    font-weight: normal;
+}
+h3 {
+    color: #79a3b1;
+    font-family: "Cabin", sans-serif;
+}
+.top-container {
+    background-color: #fcf8ec;
+    position: relative;
+    padding-top: 10%;
+    height: 100%;
+}
+.bottom-cloud {
+    position: absolute;
+}
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 10%;
+}
+.profile {
+    margin-top: 5%;
+}
+
+.profile-pic {
+    border-radius: 100%;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+.skill-row-pic-left {
+    width: 25%;
+    height: 25%;
+    float: left;
+    padding-right: 10%;
+}
+.skill-row-pic-right {
+    width: 25%;
+    height: 25%;
+    float: right;
+    padding-left: 10%;
+}
+
+.btn {
+    background-color: #456268;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    border-radius: 5%;
+    margin-top: 2%;
+    display: inline-block;
+}
+.btn:hover {
+    background-color: #79a3b1;
+}
+.contact-me {
+    margin-bottom: 5%;
+}
+
+.bottom-container {
+    background-color: #456268;
+    height: 20%;
+    padding-top: 5%;
+}
+.footer-link {
+    color: #79a3b1;
+    font-family: "Cabin", sans-serif;
+    text-decoration: none;
+    margin: 1%;
+    font-weight: bold;
+}
+.footer-link:hover {
+    color: white;
+}
+.copywrite {
+    margin-top: 2%;
+    color: white;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+    border-width: 7px;
+    border-color: gray;
+    margin: 5% auto;
+}
