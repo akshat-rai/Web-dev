@@ -16,9 +16,9 @@ h1 {
 }
 .heading {
     position: relative;
-    vertical-align: middle;
-    top: 50%;
     border: solid 3px #8785a2;
+    top: 50%;
+    transform: translate(0, -50%);
     display: inline-block;
     padding: 0 2%;
 }
