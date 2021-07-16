@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffe2e2;
+}
+h1 {
+    margin: 0;
+    font-size: 4.5rem;
+    font-family: "Festive", cursive;
+    color: #8785a2;
+}
+.heading {
+    position: relative;
+    vertical-align: middle;
+    top: 50%;
+    border: solid 3px #8785a2;
+    display: inline-block;
+    padding: 0 2%;
+}
+.under_construction_1 {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-5deg);
+    min-width: 250px;
+}
+.under_construction_3 {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-width: 250px;
+}
+
+@media (max-device-width: 640px) {
+    h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        font-family: "Festive", cursive;
+        color: #8785a2;
+    }
+}
